@@ -46,7 +46,7 @@ let AtualizarCarrinho = () =>{
     containerCarrinho.innerHTML="";
     items.map((val)=>{
         containerCarrinho.innerHTML += `
-            <p>`+val.nome+` | `+val.quantidade+`</p>
+            <p>nome do produto:`+val.nome+` | quantidade Agregada: `+val.quantidade+`</p>
             <hr>
 
         `
