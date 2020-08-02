@@ -1,9 +1,12 @@
-#produtos, #carrinho{
+#produtos{
    
     margin: 0 auto;
     padding: 0 2%;
     display: flex;
 
+}
+#carrinho{
+    
 }
 .produto-single{
     width: 33.3%;
