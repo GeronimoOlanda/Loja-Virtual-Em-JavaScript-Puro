@@ -25,7 +25,7 @@ let inicializarLoja = ()=>{
     //função map() percorre o array e retorna cada elemento no parametro, 
     // para cada chamada o elemento retornado é um novo array
     items.map((val)=>{
-        console.log(val.nome)
+        
         containerProdutos.innerHTML += `
         <div class="produto-single">
             <img src="`+val.img+`" />
