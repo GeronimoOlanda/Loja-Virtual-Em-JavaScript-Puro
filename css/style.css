@@ -19,7 +19,8 @@ img{
     margin-top: 20px;
     width: 250px;
     height: 250px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 20px;
    
    
 }
@@ -29,6 +30,7 @@ a{
     font-size: 14pt;
     color: black;
     font-weight: bold;
+    
 }
 a:hover{
     color:rgb(194, 73, 73);
