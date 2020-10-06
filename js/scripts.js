@@ -33,14 +33,13 @@ let inicializarLoja = ()=>{
         <p>`+val.nome+`</p>
         <a key="`+val.id+`" href="#">Adicionar ao carrinho<a/>
         </div>
-
         `
     })
-}
+};
 inicializarLoja();
 
 
-let AtualizarCarrinho = () =>{
+let AtualizarCarrinho = () => {
     
     let containerCarrinho = document.getElementById('carrinho');
     containerCarrinho.innerHTML="";
@@ -48,10 +47,9 @@ let AtualizarCarrinho = () =>{
         containerCarrinho.innerHTML += `
             <p>nome do produto:`+val.nome+` | quantidade Agregada: `+val.quantidade+`</p>
             <hr>
-
         `
     })
-}
+};
 
 var links = document.getElementsByTagName('a');
 for(let i = 0; i < links.length; i++){
@@ -62,4 +60,4 @@ for(let i = 0; i < links.length; i++){
 
         return false;
     })
-}
+};
